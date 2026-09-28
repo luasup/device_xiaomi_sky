@@ -545,6 +545,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
-
-# BCR
-$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
